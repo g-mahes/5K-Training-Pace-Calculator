@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Training Pace Calculator",
+    "version": "1.0",
+    "description": "Calculator that takes a 5K time and outputs training paces for that specified time.",
+    "icons":{
+        "16":"image16.png",
+        "48":"image48.png",
+        "128":"image128.png"
+    },
+    "browser_action":{
+        "default_icon": "image16.png",
+        "default_popup": "popup.html",
+        "default_title": "5k Training Pace Calculator"
+    },
+    "permissions":["activeTab", "fontSettings"]
+    
+
+}
